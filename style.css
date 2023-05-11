@@ -1,0 +1,152 @@
+* body {font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;}
+
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        color:black;
+        padding: 2px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+.colorer:hover{
+    
+        background-color:wheat
+}
+.colorerr:hover{
+    
+    background-color:wheat
+}
+.colorerrr:hover{
+    background-color:wheat ;
+}      
+
+.search {
+    width: 100%;
+    max-width: 220px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  .search:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .search:active {
+    transform: scale(0.95);
+  }
+  
+  .search:focus {
+    border: 2px solid grey;
+  }
+  .fixednav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin:  10px;
+  }
+  
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 200px;
+  }  
+#ip2{
+    margin-top: 50px;
+}
+
+    .div2{
+            margin-left: 80px 
+    }
+.card{
+    width: 600px;
+    height:400px;
+      background: rgb(250, 250, 210);
+      border-radius: 30px;
+      transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      box-shadow: inset 0 -3em 3em #0000001a,
+                  0 0  0 2px rgb(250, 250, 210),
+                  0.3em 0.3em 1em rgba(0,0,0,0.0);
+                  padding: 2px 16px;
+                  align-items: inherit ;
+                  float: left;
+                 margin-right: 50px;
+                 top: 50px;
+                bottom: -40px;
+     }
+      
+     * {box-sizing: border-box;}
+
+        .pic {
+            width: 565px;
+            height: 323px;
+            margin-top: 14px;
+            border-radius: 5%;
+        }
+
+
+     .container{
+        width: 400px;
+        height: 221px;
+        overflow: hidden;
+        margin-top: 50px;
+     }
+
+     .sud1{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size:cover;
+        background-image: url(https://tunisie.co/uploads/images/content/dar-020316-4.jpg);
+        transition: 0.7s;
+        border-radius: 10%;
+     }
+     .sud1:hover{
+        transition: 1s;
+        transform: scale(1.2);
+     }
+        .sud2{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size:cover;
+            background-image: url(./Photos/dar\ lily.PNG);
+            transition: 0.7s;
+            border-radius: 10%;
+    
+         }
+         .sud2:hover{
+            transition: 1s;
+            transform: scale(1.2);
+         }
+     
+     #hi{
+        margin-right:1100px;
+     }
+     #pi{
+        margin-left: 20px;
+     }
