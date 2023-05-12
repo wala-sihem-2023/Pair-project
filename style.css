@@ -1,6 +1,15 @@
 * body {font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;}
+html{
+   background-color:rgb(247, 236, 247);
+}
 
+
+    .divp{
+
+    background-image:url("https://scontent.ftun2-2.fna.fbcdn.net/v/t39.30808-6/336924907_176824215114846_1653852107553664025_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=UN9QgJbKhEcAX-qCQHV&_nc_ht=scontent.ftun2-2.fna&oh=00_AfCyk5f0aVSuxREwYIGLyj_Nonj7173In9q8lwx0YUAEzg&oe=64637125");
+  background-size: cover;
+    }
 
 
     nav {
@@ -57,6 +66,7 @@
     padding: 0;
   }
   
+
   li {
     margin:  10px;
   }
@@ -74,22 +84,31 @@
     padding: 5px;
     margin-right: 10px;
     width: 200px;
-  }  
-#ip2{
-    margin-top: 50px;
-}
+  } 
+ #cov{
+    width: 1500px;
+    margin-left: 5px;
+    height: 450px;
+ }
 
-    .div2{
+
+
+    /* .div2{
             margin-left: 80px 
+    } */
+    .cp{
+        margin-left:125px;
+        background-image: url ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQeGPzhvHPiQvHtc4e4wNxMAphXOg7ZLutjUN-dx1Pd-84eHWgY1xeaXOxO_IqlJC3I1c&usqp=CAU");
+  background-color: rgb(209, 184, 184);
     }
 .card{
     width: 600px;
     height:400px;
-      background: rgb(250, 250, 210);
+      background: rgb(244, 238, 242);
       border-radius: 30px;
       transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      box-shadow: inset 0 -3em 3em #0000001a,
-                  0 0  0 2px rgb(250, 250, 210),
+      box-shadow: inset 0 -3em 3em #eddee81a,
+                  0 0  0 2px rgb(208, 207, 208),
                   0.3em 0.3em 1em rgba(0,0,0,0.0);
                   padding: 2px 16px;
                   align-items: inherit ;
@@ -97,6 +116,8 @@
                  margin-right: 50px;
                  top: 50px;
                 bottom: -40px;
+                margin-top: 50px;
+
      }
       
      * {box-sizing: border-box;}
@@ -106,6 +127,7 @@
             height: 323px;
             margin-top: 14px;
             border-radius: 5%;
+        
         }
 
 
@@ -114,9 +136,10 @@
         height: 221px;
         overflow: hidden;
         margin-top: 50px;
+        margin-left: 550px;
      }
 
-     .sud1{
+     .south1{
         width: 100%;
         height: 100%;
         background-position: center;
@@ -125,11 +148,11 @@
         transition: 0.7s;
         border-radius: 10%;
      }
-     .sud1:hover{
+     .south1:hover{
         transition: 1s;
         transform: scale(1.2);
      }
-        .sud2{
+        .south2{
             width: 100%;
             height: 100%;
             background-position: center;
@@ -139,14 +162,152 @@
             border-radius: 10%;
     
          }
-         .sud2:hover{
+         .south2:hover{
             transition: 1s;
             transform: scale(1.2);
          }
-     
+         .south3{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size:cover;
+            background-image: url(./Photos/Dar\ fulla\ sud.PNG);
+            transition: 0.7s;
+            border-radius: 10%;
+         }
+         .south3:hover{
+            transition: 1s;
+            transform: scale(1.2);
+         }
+         .North1{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size:cover;
+            background-image: url(./Photos/dar\ ichkel.PNG);
+            transition: 0.7s;
+            border-radius: 10%;
+         }
+         .North1:hover{
+            transition: 1s;
+            transform: scale(1.2);
+         }
+            .North2{
+               width: 100%;
+               height: 100%;
+               background-position: center;
+               background-size:cover;
+               background-image: url(./Photos/tabarka.PNG);
+               transition: 0.7s;
+               border-radius: 10%;
+            }
+            .North2:hover{
+               transition: 1s;
+               transform: scale(1.2);
+            }
+            .North3{
+               width: 100%;
+               height: 100%;
+               background-position: center;
+               background-size:cover;
+               background-image: url(./Photos/dar\ moniya\ taba.PNG);
+               transition: 0.7s;
+               border-radius: 10%;
+            }
+            .North3:hover{
+               transition: 1s;
+               transform: scale(1.2);
+            }
      #hi{
         margin-right:1100px;
      }
      #pi{
         margin-left: 20px;
      }
+    .c20{
+      background-color: red;
+    }
+       .East1{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size:cover;
+        background-image: url(./Photos/maisons\ blanches.PNG);
+        transition: 0.7s;
+        border-radius: 10%;
+     }
+     .East1:hover{
+        transition: 1s;
+        transform: scale(1.2);
+     }
+     .East2{
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size:cover;
+      background-image: url(./Photos/dar\ benti.PNG);
+      transition: 0.7s;
+      border-radius: 10%;
+   }
+   .East2:hover{
+      transition: 1s;
+      transform: scale(1.2);
+   }
+
+
+   
+     .East3{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size:cover;
+        background-image: url(./Photos/cap\ bon.PNG);
+        transition: 0.7s;
+        border-radius: 10%;
+     }
+     .East3:hover{
+        transition: 1s;
+        transform: scale(1.2);
+     }
+     .West1{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size:cover;
+        background-image: url(./Photos/w1.PNG);
+        transition: 0.7s;
+        border-radius: 10%;
+     }
+     .West1:hover{
+        transition: 1s;
+        transform: scale(1.2);
+     }
+     .West2{
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size:cover;
+      background-image: url(./Photos/west\ 1.PNG);
+      transition: 0.7s;
+      border-radius: 10%;
+   }
+   .West2:hover{
+      transition: 1s;
+      transform: scale(1.2);
+   }
+   .West3{
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size:cover;
+      background-image: url(./Photos/west\ 2.PNG);
+      transition: 0.7s;
+      border-radius: 10%;
+   }
+   .West3:hover{
+      transition: 1s;
+      transform: scale(1.2);
+   }
+   #information{
+      margin-top:50%;
+   }

@@ -5,43 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show-room</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet " href="./style.css"> 
 </head>
 <body>
-  <div>
-    <nav>
+  <div class="divp"> 
+    <nav style="background-color: rgb(249, 230, 230);opacity: 0.7;">
         <div class="logo">Maison d'Hôte</div>
         <ul class="fixednav">
-          <li class= "colorer"><a href="#">Home</a></li>
-          <li class= "colorerr"><a href="#">Information</a></li>
-          <li class= "colorerrr"><a href="#">reserve</a></li>
+          <li class= "colorer"><a href="./index.html">Home</a></li>
+          <li class= "colorerr"><a href="#information">Information</a></li>
+          <li class= "colorerrr"><a href="./loginresreve.html">reserve</a></li>
           
         </ul>
         <input class="search" type="text" name="search" placeholder="search ...">
        
       </nav>
     </div>
+    <div>
+      <div> 
+        <img id="cov" src="https://a0.muscache.com/im/pictures/81dca5d6-5a86-49bc-8eca-4a8610a07d27.jpg?im_w=1680">
+     </div>
+     <div>
+     <div> <h3 style="text-align:center"> Unique stay </h3>
+    <p style="text-align:center"> Much more than just overnight accommodation, comfortable with everything you need.</p> 
+  </div>
+    </div>
 
-        <div >
+        <div class="cp" >
         <div class="card">
-        <a href="./Sud.html"> <img class="pic"  src="./Photos/sud 01.png" width="450" length="800"> </a>
-              <h4 style="text-align:center"><b>Welcome to the Sud</b></h4> 
+        <a href="./South.html"> <img class="pic"  src="./Photos/sud 01.png" width="450" length="400"> </a>
+              <h4 style="text-align:center"><b>Welcome to the South</b></h4> 
             </div>
           
         <div class="card ">
-            <img   class="pic" src="./Photos/nord 1.jpg" width="450" length="400">
-              <h4 style="text-align:center"><b> Welcome to the Nord </b></h4> 
+          <a href="./North.html"> <img   class="pic" src="./Photos/nord 1.jpg" width="450" length="400"></a>
+              <h4 style="text-align:center"><b> Welcome to the North </b></h4> 
             </div>
-        <div id="ip2" class="card ">
-            <img class="pic" src="./" width="450" length="400">
+            <div>
+        <div  class="card ">
+          <a href="./West.html"> <img class="pic" src="./Photos/west.PNG" width="450" length="400"></a>
               <h4 style="text-align:center"><b>  Welcome to the west   </b></h4> 
             </div>
+            <div  class="card ">
+              <a href="./East.html"> <img class="pic" src="./Photos/cap bon.PNG" width="450" length="400"></a>
+                  <h4 style="text-align:center"><b>  Welcome to the Est   </b></h4> 
+                </div>
 
-    <div id="ip2" class="card">
-        <img src="#" width="450" length="400">
-          <h4 style="text-align:center"><b> Welcome to the south </b></h4> 
-        </div>
+    
       </div>
     </div>
+    </div>
+    
+    <script src="./nord.js"></script>
+    
 </body>
 </html>
